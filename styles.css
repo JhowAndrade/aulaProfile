@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --color-grey: #2C3E50;
+    --color-white: #FFF;
+    --color-green: #1ABC9C;
+ 
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-container{
+    background-color: var(--color-grey);
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+}
+
+.nav-main{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-main a{
+    color: var(--color-white);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-itens{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-itens li{
+    margin: 15px 10px 10px 10px;
+}
+
+.nav-brand{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile-container{
+    background-color: var(--color-green);
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-white);
+}
+
+.profile-image img{
+    width: 150px;
+}
+
+.profile-title{
+    margin: 35px 0 0 0;
+}
+
+.profile-description{
+    margin: 0;
+}
